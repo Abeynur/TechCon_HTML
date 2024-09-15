@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header></header>
+    <h1>Contact Us</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="register.html">Register</a>
+    </nav>
+</header>
+<main>
+  <section>
+      <h2>Contact Information</h2>
+      <p>Email us at: <a href="mailto:email@example.com">email@example.com</a></p>
+      
+      <h2>Follow Us</h2>
+      <p>
+          <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a> |
+          <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> |
+          <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+      </p>
+      
+      <h2>Find Us</h2>
+      <iframe 
+          src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_URL" 
+          width="600" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+      </iframe>
+  </section>
+
+  <section>
+      <h2>Contact Us Form</h2>
+      <form action="submit_contact.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          
+          <button type="submit">Send Message</button>
+      </form>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 TechCon. All rights reserved.</p>
+</footer>
+</body>
+</html>
